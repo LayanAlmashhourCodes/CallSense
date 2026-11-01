@@ -1,0 +1,12 @@
+# CallSense runs on Google Colab (T4 GPU). These are the packages the notebook installs.
+# torch / transformers / numpy come preinstalled on Colab.
+pandas==2.2.3
+sentence-transformers
+openpyxl
+bitsandbytes
+accelerate
+openai-whisper
+gradio>=5,<6
+# only needed to load the baseline TF-IDF classifier in baseline_classifier/
+scikit-learn==1.6.1
+joblib

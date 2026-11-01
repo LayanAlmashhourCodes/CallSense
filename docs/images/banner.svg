@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="CallSense: Arabic Telecom Call-Center Intelligence">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1F3A"/><stop offset="1" stop-color="#1D4E89"/></linearGradient>
+    <radialGradient id="glow" cx="0.86" cy="0.05" r="0.55"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.38"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BAE6FD"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+  </defs>
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <rect width="1280" height="340" fill="url(#glow)"/>
+  <rect y="332" width="1280" height="8" fill="#38BDF8"/>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="140" font-size="88" font-weight="700" fill="#FFFFFF" letter-spacing="-1">CallSense</text>
+    <text x="74" y="188" font-size="28" font-weight="500" fill="#BFE3FB">Arabic Telecom Call-Center Intelligence</text>
+    <text x="74" y="228" font-size="19" fill="#9CC4E4">Less manual listening. Earlier escalation signals.</text>
+    <text x="74" y="254" font-size="19" fill="#9CC4E4">Quick, simple responses with reusable resolutions.</text>
+    <g font-size="15" font-weight="600" fill="#DCEBFA">
+      <rect x="74"  y="274" width="128" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.30"/><text x="138" y="296" text-anchor="middle">Whisper small</text>
+      <rect x="214" y="274" width="98"  height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.30"/><text x="263" y="296" text-anchor="middle">bge-m3</text>
+      <rect x="324" y="274" width="146" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.30"/><text x="397" y="296" text-anchor="middle">Qwen2.5-7B</text>
+      <rect x="482" y="274" width="104" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.30"/><text x="534" y="296" text-anchor="middle">Gradio</text>
+    </g>
+  </g>
+  <g>
+    <rect x="800.0" y="142.5" width="7" height="15.0" rx="3.5" fill="url(#bar)" opacity="0.44"/>
+    <rect x="813.5" y="133.5" width="7" height="33.0" rx="3.5" fill="url(#bar)" opacity="0.55"/>
+    <rect x="827.0" y="124.5" width="7" height="51.0" rx="3.5" fill="url(#bar)" opacity="0.67"/>
+    <rect x="840.5" y="135.0" width="7" height="30.0" rx="3.5" fill="url(#bar)" opacity="0.54"/>
+    <rect x="854.0" y="115.5" width="7" height="69.0" rx="3.5" fill="url(#bar)" opacity="0.78"/>
+    <rect x="867.5" y="127.5" width="7" height="45.0" rx="3.5" fill="url(#bar)" opacity="0.63"/>
+    <rect x="881.0" y="103.5" width="7" height="93.0" rx="3.5" fill="url(#bar)" opacity="0.93"/>
+    <rect x="894.5" y="121.5" width="7" height="57.0" rx="3.5" fill="url(#bar)" opacity="0.70"/>
+    <rect x="908.0" y="109.5" width="7" height="81.0" rx="3.5" fill="url(#bar)" opacity="0.85"/>
+    <rect x="921.5" y="130.5" width="7" height="39.0" rx="3.5" fill="url(#bar)" opacity="0.59"/>
+    <rect x="935.0" y="97.5" width="7" height="105.0" rx="3.5" fill="url(#bar)" opacity="1.00"/>
+    <rect x="948.5" y="117.0" width="7" height="66.0" rx="3.5" fill="url(#bar)" opacity="0.76"/>
+    <rect x="962.0" y="106.5" width="7" height="87.0" rx="3.5" fill="url(#bar)" opacity="0.89"/>
+    <rect x="975.5" y="126.0" width="7" height="48.0" rx="3.5" fill="url(#bar)" opacity="0.65"/>
+    <rect x="989.0" y="93.0" width="7" height="114.0" rx="3.5" fill="url(#bar)" opacity="1.00"/>
+    <rect x="1002.5" y="114.0" width="7" height="72.0" rx="3.5" fill="url(#bar)" opacity="0.80"/>
+    <rect x="1016.0" y="123.0" width="7" height="54.0" rx="3.5" fill="url(#bar)" opacity="0.68"/>
+    <rect x="1029.5" y="102.0" width="7" height="96.0" rx="3.5" fill="url(#bar)" opacity="0.94"/>
+    <rect x="1043.0" y="129.0" width="7" height="42.0" rx="3.5" fill="url(#bar)" opacity="0.61"/>
+    <rect x="1056.5" y="111.0" width="7" height="78.0" rx="3.5" fill="url(#bar)" opacity="0.83"/>
+    <rect x="1070.0" y="120.0" width="7" height="60.0" rx="3.5" fill="url(#bar)" opacity="0.72"/>
+    <rect x="1083.5" y="133.5" width="7" height="33.0" rx="3.5" fill="url(#bar)" opacity="0.55"/>
+    <rect x="1097.0" y="124.5" width="7" height="51.0" rx="3.5" fill="url(#bar)" opacity="0.67"/>
+    <rect x="1110.5" y="138.0" width="7" height="24.0" rx="3.5" fill="url(#bar)" opacity="0.50"/>
+    <rect x="1124.0" y="130.5" width="7" height="39.0" rx="3.5" fill="url(#bar)" opacity="0.59"/>
+    <rect x="1137.5" y="141.0" width="7" height="18.0" rx="3.5" fill="url(#bar)" opacity="0.46"/>
+    <rect x="1151.0" y="144.0" width="7" height="12.0" rx="3.5" fill="url(#bar)" opacity="0.42"/>
+  </g>
+</svg>
