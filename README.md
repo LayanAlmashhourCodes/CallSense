@@ -31,7 +31,7 @@
 
 ---
 
-## ✨ What it does
+## What it does
 
 | | |
 |---|---|
@@ -82,7 +82,7 @@ flowchart TD
 | **4. Summary and resolution** | A second Qwen step writes the summary, the resolution steps and the supervisor handoff, using the retrieved calls as context |
 | **5. Guard and store** | Output is checked (language, IDs, numbering) and saved to Google Drive |
 
-## 🧰 Tech stack
+## Tech stack
 
 | Layer | Choice |
 |---|---|
