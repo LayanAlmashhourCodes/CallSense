@@ -156,7 +156,7 @@ Features used: a **queue** (one analysis at a time on one GPU, up to 10 waiting)
 - **Latency.** About 42 s (desktop) and 53 s (mobile, includes upload) per call on a free Colab T4, measured during development before the final guards. Expect slightly more now (beam search, occasional retry).
 - **Whisper small baseline.** Mean WER 0.443 on the 80 reference recordings (as stored in the dataset).
 - **Baseline classifier.** 5-fold CV intent macro-F1 0.950; escalation F1 0.706 (0.837 with a tuned threshold). It did not generalize to new recordings (section 8).
-- **Final system.** We have **no formal accuracy figure yet**. The notebook includes two evaluation tools: a 30-call evaluation on the dataset (with the call itself excluded from its own examples) and a 13-case "hard cases" suite (restaurant, delivery, bank, general question, plus difficult telecom cases). Running them gives a number to report.
+- **Final system.** 30-call evaluation (5 per intent, from the labeled data, each call excluded from its own examples): intent accuracy 90%, escalation accuracy 87% (cancellation weakest at 0.6). 13-case hard suite: 12/13 correct, all 6 out-of-scope cases recognized, but the prompt contains similar static examples, so this is not an independent test.
 - Whisper decoding A/B test (`baseline` vs `tuned`) is provided but has not been run yet.
 
 ## 10. Limitations and future work
